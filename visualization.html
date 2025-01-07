@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AI.Tech - Artificial Intelligence HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Services</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="faq.html" class="dropdown-item">FAQs</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Insight services</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Visualization</h1>
+                    <h3 class=" text-white mb-6 animated slideInRight">The power of data visualization</h3>
+                    <p class="text-white">Data visualization plays a crucial role in data-driven decision-making. By
+                        presenting data visually, it becomes easier to understand and make informed decisions quickly
+                        and confidently. Our data science and visualization services bring data to life through live
+                        data dashboards, interactive reports, charts, graphs, and other visual representations. We
+                        collect and cleanse data ensuring data accuracy. Our data science and visualization services
+                        help translate complex, scientific information into concise, interactive visuals that enable
+                        access to accurate, complex information at a glance.</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item" text-white mb-6 animated slideInRightreadcrumb-item"><a
+                                    class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="./service.html" class="text-white">Our Services</a>
+                            </li>
+                            <li class="breadcrumb-item"><a href="./service.html" class="text-white">Insight Services</a>
+                            </li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Visualization</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="" style="max-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Service Start -->
+    <section id="data">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center text-primary mt-lg-5">Our Services</h1>
+                <div class="col-md-8  py-5">
+                    <p class="text-dark">Traditionally data analytics was driven by human experts managing data to make
+                        decisions and
+                        derive hypotheses across the scientific domain. With the rise in the volume of data this became
+                        difficult to manage. The evolution of cloud computing, modern analytics, machine learning, and
+                        AI technologies has changed the shape of life science data. However, with these advancements,
+                        comes its own challenges around data security, ethics, performance, collaboration, and
+                        scalability. A high performing infrastructure has to be configured well for you to accomplish
+                        your task effectively. But this doesn’t happen by default, our experienced data engineers and
+                        domain experts can ensure that the advanced technologies are working for you and your project.
+                    </p>
+                    <p class="text-dark">However, the complexity & heterogeneity of data requires careful selection of
+                        the approach
+                        towards visualization to achieve your objectives.</p>
+                    <h5 class="text-start text-dark ">We help with data visualization for life science by:</h5>
+
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn mt-5" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Building custom visualization interfaces and dashboards
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Intuitive and Operational Dashboard</li>
+                                        <li> Seamless Data Extraction and Integration</li>
+                                        <li> Direct Embedding to Web Applications </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Optimizing existing dashboards
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Pipeline & Data Model Optimization</li>
+                                        <li> Dashboard Performance Enhancement with Semantic Layers </li>
+                                        <li> Actionable Visuals with Performance Architecture </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Implementing easy to integrate data visualization tools
+
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Analytics Use-Cases Identification
+                                            Requirement and Gap Analysis
+                                            Extensive Visualization Derived through Data Sources</li>
+                                        <li> Requirement and Gap Analysis</li>
+                                        <li>Extensive Visualization Derived through Data Sources</li>
+
+
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-dark">Our data visualization experts work on platforms, tools, and libraries such
+                            as:</p>
+                        <ul>
+                            <li>R data visualization libraries (ggplot2, Lattice, and Plotly)</li>
+                            <li>Python data visualization libraries (PANDAS, Vispy, Matplotlib, Seaborn, PyGal)</li>
+                            <li>Dashboarding Software (PowerBI, Tableau, Spotfire, QlikView, R-Shiny) and more</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./img/visualization.webp" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service End -->
+
+
+
+    <!--Case-study Section Start -->
+    <section id="data">
+        <div class="container-fluid">
+            <div class="row mt-5"
+                style="background-image: url(./img/vibrant-summer.avif); background-size: cover; padding: 100px 0px;">
+                <div class="col-md-6 mt-3">
+                    <img src="./img/prod-des.png" style="min-height: 600px;" class="img-fluid rounded" alt="">
+                </div>
+
+
+
+                <div class="col-md-6 mt-3  px-5">
+                    <h5 class=" text-dark mb-6 animated slideInRight"> Case Study</h5>
+                    <h2 class="text-primary mt-3 fs-1">Adverse events-related screening</h2>
+                    <p class="mt-lg-5">Our client owns a proprietary tool for preclinical toxicity, clinical and
+                        pharmacovigilance
+                        studies. It required the addition of accurate, validated, up-to-date content on drugs and
+                        targets for its adverse events database. We provided data-mining, classification, and excerption
+                        services, improving the client’s text-mining pipeline to capture the relevant data points.</p>
+
+                    <p> Our curation experts manually validated the extracted PMIDs for adverse events. We worked at
+                        scale and speed, screening 1000 articles a day. The validated PMIDs were subject to a further
+                        round of quality control before being applied to the client’s text mining pipeline to fine-tune
+                        its output.</p>
+
+                    <p> Our services saved the client significant time and resources on the tedious validation process.
+                        The client’s database was successfully updated with the validated content twice a week,
+                        substantially improving efficiency and text-mining capabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Case-study Section Start -->
+
+    <!--Why XANA Section Start -->
+
+    <section id="services" class="my-5 py-5">
+        <div class="container">
+            <h1 class="text-center text-primary ">WHY XANA</h1>
+
+            <div class="row ">
+                <div class="col-md-4 mt-5">
+                    <div class="border text-start p-5" style="background-color: rgb(240, 240, 240); min-height: 400px;">
+                        <h3 class="text-dark">Domain-driven
+                            design
+                        </h3>
+                        <p class="text-start mt-4"  style="line-height:2;"">We work with your team to build interactive dashboards and intuitive
+                            visualizations. Our experts can develop advanced algorithms that can aid scientific experts
+                            in making sense of that data.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="border text-start p-5" style="background-color: rgb(240, 240, 240); min-height: 400px">
+                        <h3 class="text-dark">Domain plus Technology Expertise
+                        </h3>
+                        <p class="text-start mt-4" ">Our data scientists and domain experts have
+                            years of diverse academic and industrial experience. We understand the challenge of the
+                            modern scientific community to communicate your discoveries to the world. We overcome those
+                            challenges so you can represent your work with confidence and authority.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="border text-start p-5" style="background-color: rgb(240, 240, 240); min-height: 400px">
+                        <h3 class="text-dark">Latest visualization tech stack </h3>
+                        <p class="text-start mt-4" style="line-height:2;">
+                            Like our interdisciplinary teams working together, apps and platforms perform best when they
+                            seamlessly integrate with each other.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Why XANA Section End -->
+    <section id="services" class="my-5 py-5">
+        <div class="container">
+            <h1 class="text-start text-primary ">Knowledge Hub</h1>
+
+            <div class="row ">
+                <div class="col-md-4 mt-5 ">
+                    <div class="border text-start p-5 rounded" style="background-color: #2d3142; min-height: 292px;">
+                        <div class="d-flex gap-4">
+                            <h6 class="text-light">BioVisualizer blogs</h6>
+
+                        </div>
+                        <p class="text-light text-start mt-4 h4">
+
+                            Empowering Research: Visualizing miRNA and Large Data with Excelra’s BioVisualizer</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="border text-start p-5 rounded" style="background-color: #2d3142;">
+                        <h6 class="text-light">
+                            Blogs  GOSTAR®</h6>
+                        <p class="text-light text-start mt-4 h4">Predicting Caco-2 permeability of small molecule drugs and comparing GOSTAR to a benchmarking dataset
+                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="border text-start p-5 rounded" style="background-color:  #2d3142; min-height: 292px">
+                        <h6 class="text-light">
+                            BlogsR&D Technology </h6>
+                        <p class="text-start text-light mt-4 h4">  Unlocking New Gen AI Capabilities with Retrieval-Augmented Generation (RAG)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Why XANA Section End -->
+
+    <!-- Queries section start-->
+
+
+    <!-- Queries section end-->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">AI<span class="text-primary">.</span>Tech</h1>
+                    </a>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                        clita duo justo et tempor</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Career</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <a class="btn btn-link" href="">Robotic Automation</a>
+                    <a class="btn btn-link" href="">Machine learning</a>
+                    <a class="btn btn-link" href="">Predictive Analysis</a>
+                    <a class="btn btn-link" href="">Data Science</a>
+                    <a class="btn btn-link" href="">Robot Technology</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
