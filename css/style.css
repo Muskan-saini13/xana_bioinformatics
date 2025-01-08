@@ -107,6 +107,13 @@ h6,
   margin-left: 8px;
 }
 
+@media (max-width: 768px) {
+  .rounded-img {
+    height: 350px !important;
+    width: 350px !important;
+  }
+}
+
 @media (max-width: 991.98px) {
   .navbar .navbar-nav {
     padding: 0 15px;
@@ -531,4 +538,26 @@ h6,
     rgba(207, 179, 213, 1) 35%,
     rgba(148, 187, 233, 1) 100%
   );
+}
+
+.best-text {
+  font-size: 70px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgb(252, 76, 152) 0%,
+    rgb(192, 49, 224) 35%,
+    rgb(114, 176, 248) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rounded-img {
+  background-image: url(../img/data-eng-1-scaled-1.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
 }
