@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AI.Tech - Artificial Intelligence HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Services</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="faq.html" class="dropdown-item">FAQs</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-8 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Use Case</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">AI & ML Drug Discovery Database</h1>
+                    <p class="text-white fs-4">GOSTAR® is uniquely suited for today’s AI/ML-based drug discovery
+                        programs with the extensive, curated datasets.</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="./index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active">Databases</a>
+                            </li>
+                            <li class="breadcrumb-item text-white">Small Molecule</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Ai-Ml
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-lg-4 align-self-center text-center text-lg-end">
+                    <img class="img-fluid rounded" src="img/images.jfif" alt="" style="min-height: 200px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+    <!--database section start-->
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 py-5">
+                    <h2 class="fs-1 mt-lg-5">AI Modeling with GOSTAR®</h2>
+                    <p class="mt-4 lh-lg ">GOSTAR® is the driving force behind AI/ML innovations in drug discovery,
+                        offering an unparalleled structure-activity relationship (SAR) dataset. This rich repository is
+                        essential for enhancing predictive modeling, streamlining the research workflow, and guiding
+                        decision-making. With GOSTAR®, researchers have immediate access to a vast pool of data,
+                        facilitating a deeper understanding of compound interactions and accelerating the journey from
+                        conceptualization to identification of promising drug candidates.</p>
+
+
+                </div>
+
+                <div class="col-md-6 mt-lg-5 lh-lg">
+                    <img src="./img/GOSTAR (1).gif" class="img-fluid px-4 mt-5"
+                        style="height: 330px; max-height: 330px;" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--database section end-->
+
+
+    <!-- Events section start-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-2 lh-lg">
+                    <img src="./img/predictions.webp" class="img-fluid mt-3" style="height: 320px; max-height: 320px;"
+                        alt="">
+                </div>
+                <div class="col-md-6 py-2">
+                    <h2 class="fs-1 mt-lg-5">Predict Adverse Events</h2>
+                    <p class="mt-2 lh-lg mt-4">Advance in your safety assessments with confidence by integrating the
+                        extensive toxicity and ADME profiles available in GOSTAR. Proactively identify potential adverse
+                        effects, streamline your compound’s evaluation process, and navigate the regulatory landscape
+                        with data that backs your drug’s safety profile. GOSTAR® supports your commitment to developing
+                        safer therapeutic solutions.</p>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- Events section end-->
+
+    <!--Strategic section start-->
+
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 py-5">
+                    <h2 class="fs-1 mt-lg-5">Informed Decision-Making</h2>
+                    <p class="mt-3 lh-lg ">With access to data on 77k+ biological targets and insights from 12k+
+                        abstracts and conferences, GOSTAR® assists AI/ML companies in making informed decisions. This
+                        wealth of information supports the prioritization of experiments and the design of novel
+                        compounds, enhancing the efficiency and effectiveness of the drug discovery process.</p>
+
+
+                </div>
+
+                <div class="col-md-6 mt-2 lh-lg">
+                    <img src="./img/decision.webp" class="img-fluid px-4 mt-5" style="height: 330px; max-height: 330px;"
+                        alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--Strategic section end-->
+    <!--Prediction section start-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-4 lh-lg">
+                    <img src="./img/integration.jpg" class="img-fluid mt-lg-5" style="height: 400px; max-height: 400px;"
+                        alt="">
+                </div>
+                <div class="col-md-6 py-2">
+                    <h2 class="fs-1 mt-lg-5">Seamless Integration with GOSTAR® APIs</h2>
+                    <p class="mt-2 lh-lg mt-4">Integrate GOSTAR® seamlessly into your AI/ML infrastructure using our
+                        robust APIs, tapping into a vast array of SAR data. Efficiently access information from a pool
+                        of over 9.7 million chemical structures and 4 million+ patents screened, ensuring your research
+                        benefits from comprehensive, up-to-date data. This integration empowers automation and enables
+                        collaboration by providing a standardized interface for data sharing. With GOSTAR®, companies
+                        can efficiently integrate comprehensive data into their existing workflows, ensuring a
+                        competitive edge in AI/ML-based drug discovery.</p>
+
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!--Prediction section end-->
+
+    <!--Discovery section start-->
+    <section id="services" class="my-5 py-5">
+        <div class="container">
+            <h1 class="text-center text-primary ">Enhancing Discovery & Innovation</h1>
+
+            <div class="row ">
+                <div class="col-md-4 mt-5">
+                    <div class="border text-start p-5" style="background-color: rgb(240, 240, 240); min-height: 700px;">
+                        <h3 class="text-dark">Optimize Your Chemotypes
+                        </h3>
+                        <p class="text-start mt-4" style="line-height:2;">Take a quantum leap forward on building your
+                            predictive models using GOSTAR®’s activity data on over 9,700,000 chemical structures. The
+                            scale of data which GOSTAR® provides will allow your artificial intelligence and machine
+                            learning algorithms to clearly identify patterns and extrapolate those findings into
+                            potential new areas of discovery.</p>
+                    </div>
+                </div>
+                <div class=" col-md-4 mt-5">
+                    <div class="border text-start p-5" style="background-color: rgb(240, 240, 240); min-height: 700px">
+                        <h3 class="text-dark">Domain plus Technology Expertise
+                        </h3>
+                        <p class="text-start mt-4">Never worry about whether your newly identified structures are
+                            actually novel. GOSTAR® has the deepest patent coverage of any structure-activity
+                            relationship database. GOSTAR® has the largest coverage in patents for SAR content and helps
+                            you in determining novelty of your scaffolds or compounds. With its vast coverage of
+                            exemplified compounds from patents, it aids you in patent busting.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="border text-start p-5" style="background-color: rgb(240, 240, 240); min-height: 700px">
+                        <h3 class="text-dark">Work Confidently </h3>
+                        <p class="text-start mt-4" style="line-height:2;">
+                            Our scientific experts curate, excerpt, enhance, and enrich every data point from many
+                            different types of sources into a relational data format. Content is subjected to a
+                            three-tiered, QMS-ISO certified quality control process, then standardized and normalized
+                            before being added to the user system. Our process is both rigorous and expedient, with new
+                            information being captured and added within just weeks of publication, ensuring you have an
+                            up-to-date view of the chemical space at all times..</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Discovery section end-->
+
+    <!--GOSTAR® APIs section start-->
+
+    <section id="data">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6 mt-3">
+                    <h1 class=" mb-4 animated slideInRight">GOSTAR® APIs: Catalyzing AI in Drug Discovery</h1>
+                    <p>
+                        GOSTAR® APIs power AI/ML advancements in pharmaceutical research by providing an unmatched
+                        dataset of structure-activity relationships (SAR). This valuable resource plays a crucial role
+                        in improving predictive models, simplifying research processes, and influencing decision-making.
+                        The provided APIs offer researchers instant access to an extensive database, enabling a more
+                        comprehensive grasp of how compounds interact. This accelerates the process from initial concept
+                        to the discovery of potential drug candidates.
+                    </p>
+                    <div class="accordion" id="accordionFAQ1">
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.1s">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Access to Comprehensive GOSTAR® Data
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <p>By leveraging GOSTAR® web APIs of SAR databases, AI/ML companies gain access to a
+                                        vast pool of SAR data curated from various sources, enabling a broader analysis
+                                        and exploration of structure-activity relationships.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.2s">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Efficiency and Automation
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <p>Using GOSTAR® web APIs, AI/ML companies can programmatically retrieve SAR data,
+                                        eliminating the need for manual data collection and saving time. Automation also
+                                        allows for regularly updating the database with new data as it becomes
+                                        available.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.3s">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Informed Decision-making
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <p>The analysis and visualization of GOSTAR® data assist the company in making
+                                        data-driven decisions during the drug discovery process. They can identify
+                                        promising compounds, prioritize experiments, or design new compounds based on
+                                        observed structure-activity relationships.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item wow fadeIn" data-wow-delay="0.4s">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                    Collaboration and Integration
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionFAQ1">
+                                <div class="accordion-body">
+                                    <p>GOSTAR® Web APIs enable seamless integration of GOSTAR® data into the company’s
+                                        existing data infrastructure and analytical workflows. It also facilitates
+                                        collaboration with external partners by providing a standardized interface to
+                                        share and exchange SAR data.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>GOSTAR® Web APIs enable seamless integration of GOSTAR® data into the company’s existing data
+                        infrastructure and analytical workflows. It also facilitates collaboration with external
+                        partners by providing a standardized interface to share and exchange SAR data.</p>
+                </div>
+
+                <div class="col-md-6 mt-3 text-center">
+                    <img src="./img/mlforgostar.jpg" class="img-fluid" width="450" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--GOSTAR® APIs section end-->
+   <!-- Customer say section start--> 
+    <section id="data">
+        <div class="container">
+            <h1 class="mt-lg-5 text-center">What our customers say</h1>
+            <div class="row">
+                <span style="font-style: italic;" class="text-dark fs-6 text-center mt-3">"GOSTAR® helps us analyze the
+                    competitive
+                    landscape, understand what’s out
+                    there, and in<br> some instances, helps us to build models based on known information as well as
+                    train
+                    systems to<br> assess how well we are doing at the curation process."</span>
+                <h4 class="text-dark mt-4 text-center">Bryce Allen</h4>
+                <p class="text-center">CEO/Co-founder, Differentiated Therapeutics</p>
+
+                <img src="./img/therapeutics.png" class="img-fluid"
+                    style="width: 220px; max-width: 220px; margin-left: 450px;" alt="">
+            </div>
+        </div>
+    </section>
+   <!-- Customer say section start-->
+
+    <!-- Case Study Start -->
+    <section id="news" class="mt-5 py-5 bg-light">
+        <div class="container text-center text-md-start py-5">
+            <div class="row">
+                <div class="col-md-6 my-5">
+                    <h1>Knowledge Hub</h1>
+                </div>
+                <div class="col-md-6 my-5 d-md-flex justify-content-end align-items-center">
+                    <a href="./news" class="btn btn-primary">VIEW ALL</a>
+                </div>
+                <div class="col-lg-4 wow fadeIn " data-wow-delay="0.7s">
+                    <div class="rounded mb-2 p-4 bg-dark" style="height: 400px;  max-height: 300px;">
+
+                        <h4 class="text-white my-2">Analyzer in GOSTAR®: Matched Molecular Pair Analysis</h4>
+                        <p class="text-light">Two of the most popular sources of data for building predictive models are
+                            GOSTAR® and…</p>
+                        <a href="#" class="text-light"><u> Read more</u></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="rounded mb-2 p-4 bg-dark" style="height: 400px;  max-height: 300px;">
+
+                        <h4 class="text-white my-2">GOSTAR®: the largest online medicinal chemistry intelligence database</h4>
+                        <p class="text-light">GOSTAR® is an integrated platform of various standalone databases with
+                            cross-indexing of chemical compounds of…</p>
+                        <a href="#" class="text-light"><u> Read more</u></a>
+                    </div>             
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="rounded mb-2 p-4 bg-dark" style="height: 400px;  max-height: 300px;">
+
+                        <h4 class="text-white my-2">GOSTAR® Updates: The Latest Feature Enhancements
+                        </h4>
+                        <p class="text-light">Modern-day medicinal and computational chemists thrive in a data-rich
+                            environment, constantly seeking to uncover untapped…</p>
+                        <a href="#" class="text-light"><u> Read more</u></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Case Study End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">AI<span class="text-primary">.</span>Tech</h1>
+                    </a>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                        clita duo justo et tempor</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Career</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <a class="btn btn-link" href="">Robotic Automation</a>
+                    <a class="btn btn-link" href="">Machine learning</a>
+                    <a class="btn btn-link" href="">Predictive Analysis</a>
+                    <a class="btn btn-link" href="">Data Science</a>
+                    <a class="btn btn-link" href="">Robot Technology</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
