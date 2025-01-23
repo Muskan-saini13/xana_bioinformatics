@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AI.Tech - Artificial Intelligence HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">AI<span class="text-dark">.</span>Tech</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link active">Services</a>
+                        <a href="project.html" class="nav-item nav-link">Projects</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="faq.html" class="dropdown-item">FAQs</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-12 align-self-center text-center  mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">BLOG</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">
+                        Predicting Caco-2 permeability <br> of small molecule drugs and <br>comparing GOSTAR to a <br>
+                        benchmarking dataset
+
+                    </h1>
+                    <hr class="text-white mt-4 w-100" style="height: 4px;">
+                    <!-- <p class="text-white">Stay updated on all the latest events, webinars, and conferences where XANA will be making waves in life sciences.
+                     </p> -->
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center mb-0">
+                            <li class="breadcrumb-item"><a class="text-white" href="./index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white" aria-current="page">Platforms
+                            </li>
+                            <li class="breadcrumb-item text-white" aria-current="page">Blog
+                            </li>
+
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+
+    <!--blog start-->
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <p class="px-5"><b class="text-dark">Contributors :</b> Nishanth Kandepedu</p>
+                <p class="px-5"><b class="text-dark">Date :</b> Oct’24</p>
+                <h2 class="px-5" style="color: rgb(59, 59, 59);">Introduction</h2>
+                <p class="px-5 pt-2">Most drug discovery programs prioritize developing orally bioactive small molecules
+                    as
+                    they are the most convenient, highly patient-compliant, cost-effective, and safe route of
+                    administration to treat various diseases [1]. Adequate intestinal absorption and oral
+                    bioavailability are the most critical pharmacokinetic parameters for successfully delivering oral
+                    drug candidates [2]. Since experimental in vivo determination of intestinal absorption and oral
+                    bioavailability parameters is only feasible in the late stages of preclinical development, in vitro
+                    cell cultures have long been used as a surrogate alternative for early detection and optimization of
+                    drug absorption. Among the cell cultures developed for intestinal permeability screening, the Caco-2
+                    cell line, stemming from the human colorectal adenocarcinoma cells, is one of the most widely
+                    accepted in vitro biological techniques [3]. However, its main drawback lies in the lengthy culture
+                    periods (3 weeks) and the associated high costs [4]. Machine learning modeling provides a faster,
+                    more reliable, and cost-effective way of evaluating the Caco-2 permeability of drug candidates on a
+                    large scale. While many studies focus on developing machine learning models using open-source data,
+                    there is a lack of research involving models built on proprietary datasets [5]. In this work, we
+                    will develop a fingerprint-based model with Caco-2 data from both the GOSTAR database and a
+                    benchmarking open-source dataset, then examine the models’ predictive performance.</p>
+                <h2 class="px-5 pt-4" style="color: rgb(59, 59, 59);">Materials and Methods</h2>
+                <h3 class="px-5 pt-2" style="color: rgb(59, 59, 59);">Datasets</h3>
+                <p class="px-5 pt-2">For this study, experimental apparent permeability values were collected from the
+                    GOSTAR database and a curated benchmarking dataset integrating data from ChEMBL, DrugBank, PubChem,
+                    and BindingDB, developed by Wang et al. [6]. The same procedure was followed as outlined in our
+                    previously published methodology for retrieving data subsets from the GOSTAR database [7]. Once
+                    retrieved, all activity values in the GOSTAR Caco-2 dataset were converted to centimeters per second
+                    (cm/s), normalized using logarithmic scaling to compress the range, and filtered with cutoff values
+                    of LogPapp ≥ -7 and ≤ -3. Arithmetic mean values and standard deviations were calculated for
+                    compounds with multiple reported values to minimize uncertainty and account for experimental
+                    variability. Only compounds with a standard deviation below one were retained, resulting in a
+                    dataset of 10,706 unique compounds for model training. The apparent permeability values in the
+                    benchmarking dataset were also converted to centimeters per second (cm/s) and normalized through
+                    logarithmic scaling. Once processed, no further modifications were made, and the resulting dataset,
+                    comprising 4,463 unique compounds, was used to train the model. The activity distribution of both
+                    datasets is left-skewed, consistent with typical data published on Caco-2 apparent permeability
+                    (Figure 1).</p>
+                <div class="text-center pt-2"><img src="./img/Figure-1.png" alt="" class="img-fluid"> </div>
+                <p class="text-center pt-2"> <b class="text-dark">Figure 1. </b>Distribution of Caco-2 permeability data
+                    between GOSTAR and benchmark dataset</p>
+                <h2 class="px-5 pt-4" style="color: rgb(59, 59, 59);">Methodology</h2>
+                <p class="px-5 pt-2">In this study, two stacking regressor models were developed to predict the
+                    permeability (LogPapp) of compounds using two different datasets: GOSTAR and Benchmark. Both models
+                    used molecular descriptors and fingerprints derived from SMILES notation as input features. The
+                    models utilized two base regressors, ExtraTreesRegressor and XGBoostRegressor, with a LassoLarsCV
+                    linear model as the final estimator to combine predictions from the base models. Morgan fingerprints
+                    were generated from the molecular structure of each compound, while additional chemical descriptors,
+                    such as partition coefficient (LogP), topological polar surface area (TPSA), hydrogen bond donors
+                    (HBD), hydrogen bond acceptors (HBA), molar refractivity, number of valence electrons, number of
+                    double bonds, and other relevant molecular properties were computed to enrich the feature space.
+                    After applying feature scaling, both datasets were split into training and test sets using an 80-20
+                    random split.</p>
+                <h2 class="px-5 pt-4" style="color: rgb(59, 59, 59);">Results</h2>
+                <p class="px-5 pt-2">The models were evaluated using three key performance metrics: Mean Squared Error
+                    (MSE), Root Mean
+                    Squared Error (RMSE), and the Pearson Correlation Coefficient (R).</p>
+                <p class="px-5 pt-2"> The GOSTAR-trained model demonstrated a 32% reduction in MSE, a 17% reduction in
+                    RMSE, and a 13%
+                    improvement in Pearson correlation. The model performed significantly better when trained on the
+                    GOSTAR dataset than the benchmark dataset. The Pearson correlation coefficient, which reflects the
+                    strength of the linear relationship between predicted and experimental apparent permeability values,
+                    improved substantially on the GOSTAR dataset, indicating that the model more accurately captured the
+                    permeability trends (Table 1) (Figure 2, 3).</p>
+
+
+                <div class="px-5 pt-2">
+                    <table class="table px-3">
+                        <thead>
+                            <tr>
+                                <th scope="col">Metric</th>
+                                <th scope="col">GOSTAR Dataset</th>
+                                <th scope="col">Benchmark Dataset</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Mean Squared Error</th>
+                                <td>0.19</td>
+                                <td>0.28</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Root Mean Squared Error</th>
+                                <td>0.44</td>
+                                <td>0.53</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">Pearson Correlation Coefficient</th>
+                                <td>0.81</td>
+                                <td>0.72</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-center pt-2"> <b class="text-dark">Table 1. </b>Comparison of model evaluation metrics
+                    between the GOSTAR and benchmark dataset</p>
+                <div class="text-center pt-2"><img src="./img/Figure-2.png" alt="" class="img-fluid"> </div>
+                <p class="text-center pt-2"> <b class="text-dark">Table 2. </b>Comparison of model evaluation metrics
+                    between the GOSTAR and benchmark dataset</p>
+                <div class="text-center pt-2"><img src="./img/Figure-3.png" alt="" class="img-fluid"> </div>
+                <p class="text-center pt-2"> <b class="text-dark">Table 3. </b>Comparison of performance gains between
+                    the GOSTAR and benchmark dataset</p>
+                <h2 class="px-5 pt-4" style="color: rgb(59, 59, 59);">Conclusion</h2>
+                <p class="px-5 pt-2">In conclusion, the stacking regressor, trained on the GOSTAR dataset, significantly
+                    outperformed the
+                    benchmark models in predicting permeability. The model’s improved accuracy, as evidenced by lower
+                    error metrics and higher Pearson correlation, underscores the GOSTAR dataset’s superior quality and
+                    diversity. This study highlights the importance of well-curated datasets like GOSTAR for developing
+                    robust and reliable predictive models in permeability predictions.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!--blog end-->
+
+
+    <!--goster start-->
+
+    <div class="container-fulid my-5" style="background-color: rgb(255, 239, 241);">
+        <div class="row justify-content-center">
+            <div class="col-md-5 py-7">
+                <p class="fs-3  p-5">
+                    Find out how XANA’s GOSTAR can help your precision medicine projects and solve data-related
+                    challenges in drug discovery, pharmaceuticals, and healthcare.</p>
+            </div>
+            <div class="col-md-3 position-relative mx-3 mb-4">
+                <div class=" text-center position-absolute top-50 start-50 translate-middle">
+                    <a href="mailto:xanabioinformatics@gmail.com"
+                        class="btn border border-dark btn-lg rounded-pill px-5">Email</a>
+                </div><br><br>
+            </div>
+        </div>
+    </div>
+
+    <!--goster end -->
+
+
+    <!--crads start-->
+
+
+    <div class="container-fluid py-5 mb-5" style="background-color: rgb(240, 249, 255);">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                <h2 class="" style="color: rgb(77, 77, 77);">Recommended For You</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center gap-4">
+            <div class="col-md-3">
+                <div class="card mt-lg-5 ">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3"> 10x Visium: A breakthrough enabling Omics analysis at spatial level
+                        </h5>
+                        <p class="card-text mt-3 mb-4 fs-6">The constantly evolving landscape of laboratory informatics
+                            has made it crucial for life sciences organizations…</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card mt-lg-5 ">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3">Empowering Research: Visualizing miRNA and Large Data with XANA’s
+                            BioVisualizer</h5>
+                        <p class="card-text mt-3 mb-4 fs-6">The constantly evolving landscape of laboratory informatics
+                            has made it crucial for life sciences organizations…</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card mt-lg-5 ">
+                    <div class="card-body">
+                        <h5 class="card-title fs-3">Unlocking New Gen AI Capabilities with Retrieval-Augmented
+                            Generation (RAG)</h5>
+                        <p class="card-text mt-3 mb-4 fs-6">The constantly evolving landscape of laboratory informatics
+                            has made it crucial for life sciences organizations…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--cards end-->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">AI<span class="text-primary">.</span>Tech</h1>
+                    </a>
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                        clita duo justo et tempor</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h5 class="text-white mb-4">Popular Link</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Career</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h5 class="text-white mb-4">Our Services</h5>
+                    <a class="btn btn-link" href="">Robotic Automation</a>
+                    <a class="btn btn-link" href="">Machine learning</a>
+                    <a class="btn btn-link" href="">Predictive Analysis</a>
+                    <a class="btn btn-link" href="">Data Science</a>
+                    <a class="btn btn-link" href="">Robot Technology</a>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
